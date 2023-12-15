@@ -1,0 +1,24 @@
+/* Estilos para el contenedor principal */
+Panel {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+Button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px; /
+}
+
+Button:hover {
+    -fx-background-color: #45a049;
+}
+
+Label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
